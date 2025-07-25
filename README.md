@@ -14,8 +14,8 @@ SaaS Validator is a tool designed to validate and ensure the integrity of SaaS a
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/saas-validator.git
-cd saas-validator
+git clone https://github.com/Anirudhmadhavkulkarni9094/saas-validator-savi.git
+cd saas-validator-savi
 ```
 
 Install dependencies:
@@ -57,4 +57,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or support, open an issue or contact the maintainer at [your.email@example.com](mailto:your.email@example.com).
+For questions or support, open an issue or contact the maintainer at [anirudhkulkarni9094@gmail.com](mailto:anirudhkulkarni9094@gmail.com).
