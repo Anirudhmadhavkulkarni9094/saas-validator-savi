@@ -56,20 +56,6 @@ export default function LandingPage() {
         <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
           Instant feedback. Real demand. Smarter decisions — before you build anything.
         </p>
-        <button className="mt-10 inline-flex items-center bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-xl transition text-lg shadow">
-          Get Started Free
-        </button>
-      </section>
-     
-    <main className="bg-white text-gray-800">
-      {/* Hero */}
-      <section className="py-28 px-6 md:px-20 bg-gradient-to-br from-orange-50 via-purple-50 to-green-50 text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
-          Validate Your SaaS Idea with <span className="text-orange-600">SaVi</span>
-        </h1>
-        <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-          Instant feedback. Real demand. Smarter decisions — before you build anything.
-        </p>
 
         <div className="mt-10 max-w-2xl mx-auto">
           <textarea
@@ -98,10 +84,6 @@ export default function LandingPage() {
       </section>
 
       {/* ...rest of the original sections (features, testimonials, pricing, etc.) */}
-    </main>
-  );
-
-
 
       {/* Features */}
       <section className="py-24 px-6 md:px-20 bg-white">
@@ -203,6 +185,6 @@ export default function LandingPage() {
       <footer className="py-8 px-6 text-center text-sm text-gray-500 bg-white border-t">
         © {new Date().getFullYear()} SaVi – Built for indie founders & solo devs.
       </footer>
-    </main>
+      </main>
   );
 }
