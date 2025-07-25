@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`
 
-const GEMINI_API_URL = process.env.GEMINI_API_URL
 // Simple in-memory store (resets on server restart)
 const ipUsageMap = new Map<string, number>()
 
