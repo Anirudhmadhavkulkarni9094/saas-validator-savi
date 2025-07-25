@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-// const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAUioDkQgus8vdkoo8xvlYQ7YpoqpTacRE'
 
 const GEMINI_API_URL = process.env.GEMINI_API_URL
 // Simple in-memory store (resets on server restart)
